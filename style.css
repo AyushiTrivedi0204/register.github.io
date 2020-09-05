@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(webpage.jpg);
+	background-attachment: fixed;
+	background-size: cover;font-family: new time roman;
+}
+
+ 
+ h1{
+ 	font-size:30px;
+ 	color: white;
+ 	margin-top: 50px;
+ 	margin-bottom: 30px;
+ 	text-align: center;
+ 	padding: 5px 5px;
+ 	font-family: sans-serif;
+}
+ .col-md-5{
+ 	background: rgba(0,0,0,0.5);
+ 	margin-left: 200px;
+ 	margin-right: 57%;
+ 	margin-top: 150px;
+ 	margin-bottom: 10px;
+ 	 }
+
+   
+ label{
+ 	font-family: new time roman;
+ 	color: white;
+ 	font-size: 18px;
+ 	margin-left: 20px;
+ 	font-weight: normal;
+ }
+ .input-group{
+ 	margin-top:  10px;
+ 	margin-bottom: 25px;
+ 
+ }
+  .input-group-addon{
+  	background:transparent;
+  	border-radius: 0px;
+  	border:0px;
+  	border-bottom: 1px solid white;
+  	font-size: 15px;
+  	color: white;
+
+  }
+  .form-control{
+  	background:transparent;
+  	border-radius: 0px;
+  	border:0px;
+  	border-bottom: 1px solid white;
+    padding: 17px;
+    font-size: 21px;
+    margin-left: 40px;
+  }
+  input[ type="checkbox"]{
+  	height: 15px;
+  	width: 15px;
+  	margin-left: 5px;
+  }
+
+  small{
+  	font-size: 16px;
+  	color: white;
+  	margin-left: 5px;
+  }
+
+  p{
+  	font-size: 13px;
+  	color: white;
+  	text-align:center;
+  	padding: 2px 0px;
+  }
+  a{
+  	padding: 2px 5px ;
+  }
+  .btn-default{
+  	border-radius:2px;
+  	width: 300px;
+  	text-align: center;
+  	font-size: 18px;
+  	text-decoration: none;
+  	margin-left: 25px;
+  	margin-top: 20px;
+  	margin-bottom: 40px;
+  	height: 32px;
+  	background-color: white;
+  	color: black;
+  	text-decoration: none;
+
+  }
+
+
+
+  h2{
+    font-size: 20px;
+    color: white;
+  }
+ 
+
+
+  @media only screen and (max-width: 800px){
+
+.col-md-5{
+  background: rgba(0,0,0,0.5);
+  margin-left: 20px;
+  margin-right: 80%;
+  margin-top: 150px;
+  width: 400px;
+  margin-bottom: 10px;
+   }
+
+}
